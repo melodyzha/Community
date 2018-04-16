@@ -2,3 +2,4 @@
 
 每个K-Lab项目可同时挂载三个数据集，数据集访问路径可通过数据集挂载目录进行查询。
 ![image description](/image/dataset-list.png)
+![image description](/image/preview-data.png)
