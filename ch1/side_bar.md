@@ -12,4 +12,4 @@ K-Lab提供代码片段功能来提升用户的编程效率，用户可以在该
 ![image description](/image/code-storage.png)
 
 * 我的收藏：用户在code cell收藏的的代码片段将在该区域呈现。
-![image description](/image/code_favorite.png)
+![image description](/image/code-favorite.png)
