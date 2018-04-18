@@ -1,6 +1,6 @@
 # 运行项目
 
-* 启动项目：完成项目创建后，在弹出的对话框选择`确定`，即可进入K-Lab的运行时，启动Notebook及Kernel环境，导入数据集，编写数据分析项目。
+* 启动项目：完成项目创建后，在弹出的对话框选择`确定`，即可进入K-Lab的运行时，启动Notebook及Kernel环境，挂载数据集，编写数据分析项目。
   ![image description](/image/运行项目.png)
 * 重命名项目：在Notebook页面点击左上角的项目名称，能够对项目名称进行修改。
   ![image description](/image/运行时-修改项目名称.png)
