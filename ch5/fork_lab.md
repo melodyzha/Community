@@ -5,5 +5,5 @@
 * Fork来源：用户选择Fork的项目名称。
 * 项目名称：用户可以更改项目名称。
 * 项目描述：用户可以更改项目描述。
-* 项目权限：Fork的公开项目不可转为私有项目。
+* 项目权限：用户Fork的公开项目不可转为私有项目。
   ![image description](/image/fork-project.png)
