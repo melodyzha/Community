@@ -1,6 +1,6 @@
 # Kernel内置工具包
 K-Lab kernel中内置各类主流的机器学习、深度学习框架，集成了常见数据分析包，用户可以免除前期环境配置，直接开展分析工作。
-工具包详情可以查看[K-Lab工具包](ch8/chapter8.md)
+工具包详情可以查看[K-Lab工具包](./ch8/chapter8.md)
 
 K-Lab Kernel支持用户在与Kernel相连的Notebook中输入指令查看、安装和更新工具包。 
 ### 查看工具包
