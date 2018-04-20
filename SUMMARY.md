@@ -26,4 +26,8 @@
     * [Fork项目](ch5/fork_lab.md)
 * [账户管理](ch6/chapter6.md)
 * [K-Lab快捷键](ch7/chapter7.md)
+* [K-Lab工具包](ch8/chapter8.md)
+    * [Py3](ch8/py3.md)
+    * [Py2](ch8/py2.md)
+    * [R](ch8/r.md)
 
