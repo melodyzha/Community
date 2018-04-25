@@ -30,3 +30,5 @@
     * [Py2](ch8/py2.md)
     * [R](ch8/r.md)
 * [账户管理](ch6/chapter6.md)
+* [FAQ](ch9/chapter9.md)
+
