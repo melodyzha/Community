@@ -1,6 +1,6 @@
 # Summary
 
-* [K-Lab社区版用户手册](README.md)
+* [K-Lab使用指南](README.md)
 * [Notebook(编程环境)](ch1/chapter1.md)
     * [Header](ch1/header.md)
     * [Code Cell](ch1/code_cell.md)
@@ -30,3 +30,5 @@
     * [Py2](ch8/py2.md)
     * [R](ch8/r.md)
 * [账户管理](ch6/chapter6.md)
+* [FAQ](ch9/chapter9.md)
+
