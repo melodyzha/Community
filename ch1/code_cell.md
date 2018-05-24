@@ -16,4 +16,4 @@ Code Cell有**编辑模式**和**命令模式**两种状态，状态可以相互
 * **代码片段**：K-Lab提供插入和收藏代码片段功能来减少用户在数据分析过程中重复思考和搜索代码的时间。
 * **隐藏Code Cell**：点击code cell右上角的小按钮即可隐藏代码。项目发布后，隐藏的代码**不会**显示在项目里。Fork该项目进入运行时，可以展开隐藏代码，查看完整项目内容。
 
- ![image description](/image/隐藏代码.png)
+ ![image description](/image/hide-code-cell.png)
