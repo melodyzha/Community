@@ -2,11 +2,15 @@
 * 什么是Fork：用户点击`Fork`后，可以创建一个内容与被Fork项目内容相同的新项目。在这个项目里，用户可以自由进行编辑和修改操作。
 * 如何Fork项目：项目页面点击蓝色的`Fork`按钮。
   ![image description](/image/how-to-fork.png)
+  
 ### 项目相关信息
+
+  ![image description](/image/fork-project-new.png)
 * Fork来源：用户选择Fork的原始项目名称。
 * 项目名称：用户可以更改项目名称。
 * 项目描述：用户可以更改项目描述。
 * 项目权限：用户Fork的公开项目不可转为私有项目。
-* Fork记录：项目的原创者可以通过Fork记录查看自己的项目被哪些人Fork。
+* 数据集： 用户可以对项目挂载的数据集进行添加或删除。
 * **友情提示：如果Fork了一个公开项目，基于该项目创建的新项目将会默认隐藏，不会出现在社区的项目页列表中。用户可以在K-Lab页面【我的项目】里找到这个新项目。**
-  ![image description](/image/fork-project-new.png)
+  
+
