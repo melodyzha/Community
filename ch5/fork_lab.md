@@ -3,7 +3,7 @@
 * 如何Fork项目：项目页面点击蓝色的`Fork`按钮。
   ![image description](/image/how-to-fork.png)
 ### 项目相关信息
-* Fork来源：用户选择Fork的项目名称。
+* Fork来源：用户选择Fork的原始项目名称。
 * 项目名称：用户可以更改项目名称。
 * 项目描述：用户可以更改项目描述。
 * 项目权限：用户Fork的公开项目不可转为私有项目。
