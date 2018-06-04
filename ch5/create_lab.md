@@ -15,4 +15,4 @@
  
  ![image description](/image/选择数据集.png)
  
-* 上传本地IPython Notebook文件：K-Lab支持原生```.ipynb```文件，用户可以直接上传本地的Notebook文件导入K-Lab完成后续编写运行。
+* 上传本地IPython Notebook文件：K-Lab支持原生```.ipynb```文件，用户可以直接上传本地的Notebook文件导入K-Lab，完成后续编写运行。
