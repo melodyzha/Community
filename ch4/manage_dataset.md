@@ -6,4 +6,4 @@
 * 修改数据集信息：用户可以修改数据访问权限，对数据集的名称、短描述进行修改。
 * 删除数据集：用户个人上传的数据集一经删除，无法找回。
  
- ![image description](/image/数据集信息.png)
+ ![image description](/image/dataset-info.png)
