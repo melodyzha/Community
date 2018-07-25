@@ -18,7 +18,7 @@
 
 用户可以通过查看系统日志的方式来分析运行过程中的异常信息。
 
-![image description](/image/新版监控区.png)
+![image description](/image/日志监控.png)
 
 ## **变量监控**
 
