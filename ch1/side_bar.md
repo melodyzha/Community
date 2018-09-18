@@ -8,9 +8,11 @@ K-Lab的侧边栏包含了**文件树**、**数据集**、**代码片段**与**�
 ![image description](/image/文件树.png)
 
 ## 数据集
-当前项目挂载的数据集信息（数据集大小，文件路径，etc）可以在文件目录直接查看，并支持csv与zip格式的文件内容预览。
+当前项目挂载的数据集信息（数据集大小，文件路径，etc）可以在数据集一栏直接查看，并能够预览csv与zip格式的文件内容。
 
-![image description](/image/dataset-preview.png)
+![image description](/image/数据集.png)
+
+![image description](/image/数据集预览.png)
 
 ## 代码片段
 K-Lab提供代码片段功能来提升用户的编程效率，用户可以在该区域进人数据分析常用代码知识库的整理，并在编写代码时快速插入使用。代码片段分为**公有库**和**我的收藏**。
