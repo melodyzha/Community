@@ -12,7 +12,7 @@
 
 #### 如何生成项目版本
 每个项目要至少生成一个版本后才能公开发布。进入K-Lab运行时，点击“生成版本”按钮，即可基于当前Notebook的内容生成新的项目版本。
-（图）
+ ![image description](/image/生成版本.png)
 
 #### 资源为什么连接不上？
 正常情况下连接资源可能需要等待1分钟左右，如果资源一直连接不上，请及时通过页面右下角意见反馈按钮联系管理员。
@@ -24,15 +24,17 @@ K-Lab有单次使用时长的限制，如果时限到了Kernel就会断开，刷
 #### 如何在K-Lab里解压zip文件？
 在K-Lab挂载zip格式的数据集时，K-Lab会自动解压这个zip文件一级目录下的内容，该文件中包含的其余zip文件，则需要通过Python代码完成解压。步骤如下：
 假设挂载的数据集目录为zipfolder，文件中包含了名为zip2file的zip文件，
+
 1. 运行以下命令解压zip2file文件：
-path1 = '/home/kesci/input/zipfolder/zip2file.zip'
+
+`path1 = '/home/kesci/input/zipfolder/zip2file.zip'
 import zipfile
 z = zipfile.ZipFile(path1, 'r')
 z.extractall('/home/kesci/input/zipfolder/')
-z.close()
+z.close()`
 
 2.查看解压后的文件内容：
-!ls /home/kesci/input/zipfolder
+`!ls /home/kesci/input/zipfolder`
 
 #### Notebook可以导出吗？
 可以。在K-Lab运行时内，依次点击工具栏中的“文件” → “导出为ipynb”，就可以把导出ipython Notebook文件。但项目挂载的数据集和项目相关的工具包不能同时导出。
@@ -44,7 +46,7 @@ K-Lab重启可能有以下原因：
 
 #### 为什么总显示等待Kernel响应？
 如果一直显示等待Kernel响应，Kernel可能正在运行。此时可以点击顶部工具栏的“中断Kernel”按钮，中断Kernel。如果仍然没有响应，请联系管理员。
-（图）
+ ![image description](/image/cut-kernel.png)
 
 #### 资源为什么连接不上？
 正常情况下打开K-Lab后连接资源可能需要等待1-2分钟，如果资源一直连接不上，请及时联系管理员。
@@ -57,26 +59,26 @@ K-Lab重启可能有以下原因：
 
 ### K-Lab工具包常见问题
 #### 想要用的工具包没有，怎么自己安装？
-
 在Python3 环境下，使用以下命令：
-!pip install package_name==version #安装工具包
-!pip install package_name --upgrade #更新工具包
+`!pip install package_name==version #安装工具包
+!pip install package_name --upgrade #更新工具包`
 如果要安装系统软件包，请使用以下命令：
-!sudo apt-get update
+`!sudo apt-get update
 !sudo apt-get install cowsay
-!/usr/games/cowsay -f ghostbusters Who you Gonna Call
-更多指令参见：帮助文档（链接）
+!/usr/games/cowsay -f ghostbusters Who you Gonna Call`
+更多指令参见帮助文档：[Kernel内置工具包](./kernel_pkg.md)
 
 
 ### 项目常见问题
 #### 为什么不能公开项目？
 项目需要生成版本后才能公开发布。如果项目详情页没有版本号则说明项目还未生成版本。如果要生成版本，进入K-Lab运行时，点击“生成项目版本“按钮，回到项目详情页，刷新页面即可。
-图片: https://images-cdn.shimo.im/MNtZf3N3W4IZOJtD/Screen_Shot_2018_10_16_at_5.37.18_PM.png
+![image description](/image/生成版本.png)
 
 
 #### 为什么我的项目不能分享？
 项目需要至少发布一个版本才能分享。进入K-Lab运行时，点击“生成项目版本“按钮，回到项目详情页，刷新页面即可。
-图片: https://images-cdn.shimo.im/MNtZf3N3W4IZOJtD/Screen_Shot_2018_10_16_at_5.37.18_PM.png
+![image description](/image/生成版本.png)
+
 
 #### 项目生成的Notebook可以导出吗？
 可以。在K-Lab运行时内，依次点击工具栏中的“文件” → “导出为ipynb”，就可以把项目内容导出为ipython Notebook文件。但项目挂载的数据集不能同时导出。
@@ -110,8 +112,8 @@ K-Lab重启可能有以下原因：
 实名认证的时间为1-2天，如果超过2天没有答复，可以联系管理员。
 
 #### 如何提交参赛文件？
-参赛文件是以团队名义进行提交的，且只有队长才能进行提交，所以即使一人参赛也需要创建一个团队。确保已经创建了团队后，在赛事详情页面找到”提交“Tab。图片: https://images-cdn.shimo.im/zHPJl7DeojAAGeo5/Screen_Shot_2018_10_17_at_5.39.04_PM.png
-
+参赛文件是以团队名义进行提交的，且只有队长才能进行提交，所以即使一人参赛也需要创建一个团队。确保已经创建了团队后，在赛事详情页面找到”提交“Tab。
+![image description](/image/submit-tab.png)
 如果需要提交工具来提交，可以在此页面找到提交token，在需要提交的Notebook中输入以下指令即可。
 `# 提交结果文件
 !./kesci_submit -token XXXXXXXXX -file /home/kesci/work/my_submission.txt`
@@ -119,7 +121,7 @@ K-Lab重启可能有以下原因：
 
 #### 如何提交比赛作品？
 比赛结束后，我们鼓励大家在社区开源自己的比赛作品促进交流。在已结束的比赛页面点击”发布作品“ 进入发布作品帖页面。如果是用K-Lab完成的比赛项目选择“基于K-Lab项目的作品”，其他类型选择“普通作品”，然后完善作品简介、头图即可。
-图片: https://images-cdn.shimo.im/LNvoBmjJq34HwPaR/Screen_Shot_2018_10_18_at_5.59.41_PM.png
+![image description](/image/submit-作品.png)
 
 #### 团队为什么锁定了？
 团队锁定有两种情况：
