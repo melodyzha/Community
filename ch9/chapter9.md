@@ -26,11 +26,14 @@ K-Lab有单次使用时长的限制，如果时限到了Kernel就会断开，刷
 在K-Lab挂载zip格式的数据集时，K-Lab会自动解压这个zip文件一级目录下的内容，该文件中包含的其余zip文件，则需要通过Python代码完成解压。步骤如下：
 假设挂载的数据集目录为zipfolder，文件中包含了名为zip2file的zip文件，
 1. 运行以下命令解压zip2file文件：
-`path1 = '/home/kesci/input/zipfolder/zip2file.zip'
+```
+path1 = '/home/kesci/input/zipfolder/zip2file.zip'
 import zipfile
 z = zipfile.ZipFile(path1, 'r')
 z.extractall('/home/kesci/input/zipfolder/')
-z.close()`
+z.close()
+
+```
 
 2. 查看解压后的文件内容：
 `!ls /home/kesci/input/zipfolder`
@@ -60,13 +63,17 @@ K-Lab重启可能有以下原因：
 ### K-Lab工具包常见问题
 #### 想要用的工具包没有，怎么自己安装？
 * 在Python3 环境下，使用以下命令：
-`!pip install package_name==version #安装工具包
-!pip install package_name --upgrade #更新工具包`
+```
+!pip install package_name==version #安装工具包
+!pip install package_name --upgrade #更新工具包
+```
 
 * 如果要安装系统软件包，请使用以下命令：
-`!sudo apt-get update
+```
+!sudo apt-get update
 !sudo apt-get install cowsay
-!/usr/games/cowsay -f ghostbusters Who you Gonna Call`
+!/usr/games/cowsay -f ghostbusters Who you Gonna Call
+```
 
 * 更多指令参见帮助文档：[Kernel内置工具包](./kernel_pkg.md)
 
