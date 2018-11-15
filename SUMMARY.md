@@ -1,12 +1,12 @@
 # Summary
 
-* [K-Lab使用指南](README.md)
 * [FAQ](ch9/chapter9.md)
     * [K-Lab使用常见问题](ch9/K-Lab使用常见问题.md)
     * [K-Lab工具包常见问题](ch9/K-Lab工具包常见问题.md)
     * [项目常见问题](ch9/项目常见问题.md)
     * [数据集常见问题](ch9/数据集常见问题.md)
     * [比赛常见问题](ch9/比赛常见问题.md) 
+* [K-Lab使用指南](README.md)
 * [Notebook(编程环境)](ch1/chapter1.md)
     * [Header](ch1/header.md)
     * [Code Cell](ch1/code_cell.md)
