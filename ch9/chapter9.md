@@ -25,16 +25,14 @@ K-Lab有单次使用时长的限制，如果时限到了Kernel就会断开，刷
 #### 如何在K-Lab里解压zip文件？
 在K-Lab挂载zip格式的数据集时，K-Lab会自动解压这个zip文件一级目录下的内容，该文件中包含的其余zip文件，则需要通过Python代码完成解压。步骤如下：
 假设挂载的数据集目录为zipfolder，文件中包含了名为zip2file的zip文件，
-
 1. 运行以下命令解压zip2file文件：
-
 `path1 = '/home/kesci/input/zipfolder/zip2file.zip'
 import zipfile
 z = zipfile.ZipFile(path1, 'r')
 z.extractall('/home/kesci/input/zipfolder/')
 z.close()`
 
-2.查看解压后的文件内容：
+2. 查看解压后的文件内容：
 `!ls /home/kesci/input/zipfolder`
 
 #### Notebook可以导出吗？
