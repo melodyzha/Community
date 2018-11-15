@@ -32,7 +32,6 @@ import zipfile
 z = zipfile.ZipFile(path1, 'r')
 z.extractall('/home/kesci/input/zipfolder/')
 z.close()
-
 ```
 
 2. 查看解压后的文件内容：
