@@ -13,7 +13,7 @@
 #### 如何生成项目版本
 每个项目要至少生成一个版本后才能公开发布。进入K-Lab运行时，点击“生成版本”按钮，即可基于当前Notebook的内容生成新的项目版本。
 
- ![image description](/image/生成版本.png)
+ ![image description](/image/new-version.png)
 
 #### 资源为什么连接不上？
 正常情况下连接资源可能需要等待1分钟左右，如果资源一直连接不上，请及时通过页面右下角意见反馈按钮联系管理员。
@@ -48,7 +48,7 @@ K-Lab重启可能有以下原因：
 #### 为什么总显示等待Kernel响应？
 如果一直显示等待Kernel响应，Kernel可能正在运行。此时可以点击顶部工具栏的“中断Kernel”按钮，中断Kernel。如果仍然没有响应，请联系管理员。
 
- ![image description](/image/cut-kernel.png)
+ ![image description](/image/pause-kernel.png)
 
 #### 资源为什么连接不上？
 正常情况下打开K-Lab后连接资源可能需要等待1-2分钟，如果资源一直连接不上，请及时联系管理员。
@@ -75,13 +75,13 @@ K-Lab重启可能有以下原因：
 #### 为什么不能公开项目？
 项目需要生成版本后才能公开发布。如果项目详情页没有版本号则说明项目还未生成版本。如果要生成版本，进入K-Lab运行时，点击“生成项目版本“按钮，回到项目详情页，刷新页面即可。
 
-![image description](/image/生成版本.png)
+![image description](/image/new-version.png)
 
 
 #### 为什么我的项目不能分享？
 项目需要至少发布一个版本才能分享。进入K-Lab运行时，点击“生成项目版本“按钮，回到项目详情页，刷新页面即可。
 
-![image description](/image/生成版本.png)
+![image description](/image/new-version.png)
 
 
 #### 项目生成的Notebook可以导出吗？
@@ -118,7 +118,7 @@ K-Lab重启可能有以下原因：
 #### 如何提交参赛文件？
 参赛文件是以团队名义进行提交的，且只有队长才能进行提交，所以即使一人参赛也需要创建一个团队。确保已经创建了团队后，在赛事详情页面找到”提交“Tab。
 
-![image description](/image/submit-tab.png)
+![image description](/image/submit-work.png)
 
 如果需要提交工具来提交，可以在此页面找到提交token，在需要提交的Notebook中输入以下指令即可。
 `# 提交结果文件
