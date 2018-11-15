@@ -121,8 +121,7 @@ K-Lab重启可能有以下原因：
 ![image description](/image/submit-work.png)
 
 如果需要提交工具来提交，可以在此页面找到提交token，在需要提交的Notebook中输入以下指令即可。
-`# 提交结果文件
-!./kesci_submit -token XXXXXXXXX -file /home/kesci/work/my_submission.txt`
+`!./kesci_submit -token XXXXXXXXX -file /home/kesci/work/my_submission.txt`
 如果提交作品文件，在该页面按要求直接上传即可。
 
 #### 如何提交比赛作品？
