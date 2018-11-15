@@ -13,5 +13,3 @@
 !sudo apt-get install cowsay
 !/usr/games/cowsay -f ghostbusters Who you Gonna Call
 ```
-
-* 更多指令参见：[Kernel内置工具包](ch2/kernel_pkg.md)
