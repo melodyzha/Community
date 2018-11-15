@@ -14,4 +14,4 @@
 !/usr/games/cowsay -f ghostbusters Who you Gonna Call
 ```
 
-* 更多指令参见帮助文档：[Kernel内置工具包](./ch2./kernel_pkg.md)
+* 更多指令参见帮助文档：[Kernel内置工具包](./kernel_pkg.md)
