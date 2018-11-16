@@ -27,7 +27,7 @@ id,height,age
 同时，对每个数据集文件你都可以添加相关的文件简介。
 
 #### 参考范例
-数据集 [120年奥运历史数据集：运动员和成绩](https://www.kesci.com/home/dataset/5b62ca77a711e60010ab1154） 就是一个很好的csv数据集范例。
+数据集 [120年奥运历史数据集：运动员和成绩](https://www.kesci.com/home/dataset/5b62ca77a711e60010ab1154)就是一个很好的csv数据集范例。
 
 ### JSON
 JSON（JavaScript Object Notation）是一种轻量级的数据交换格式，也是最常见的“树状”数据（tree）的文件格式。这类格式的数据通常有多个分层，就像一棵树的分支。书写格式一般是一对“名称/值” （name/value pairs），如"name":"John"。之前提到的关于用户身高与年龄的数据用JSON格式表示的结果如下所示：
@@ -208,5 +208,3 @@ R用户，创建项目后，输入 !list.files('../input/<dataset_name>') 查看
 * 建模过程
 * 结果分析
 在每个模块和代码之间需要必要的文字说明，你可以参考我们的[Notebook推荐模板](https://www.kesci.com/home/project/5bd1947f77028c0010b70bfd)
-
-
