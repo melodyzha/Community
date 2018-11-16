@@ -36,4 +36,7 @@
     * [Py2](ch8/py2.md)
     * [R](ch8/r.md)
 * [账户管理](ch6/chapter6.md)
+* [社区数据集指南](ch10/chapter10.md)
+   * [数据集开源指南](ch10/dataset-rules.md)
+   * [数据集协议](ch10/license.md)
 
