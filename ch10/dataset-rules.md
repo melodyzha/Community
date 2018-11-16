@@ -18,11 +18,12 @@ id,height,age
 
 #### 数据预览
 针对CSV格式的文件，我们提供了文件内容的数据预览功能：如下图奥林匹克运动的数据集所示，在数据集的“文件”子页面上可以直观地预览CSV文件前20行的内容。
-![image description](/data-preview.png)
+![image description](/image/data-preview.png)
 
 #### 数据标注和简介
 你可以点击”编辑信息“按钮，对属性字段添加标注，如：Name-姓名，Sex-性别，从而方便其他社区用户更直观地了解数据的含义。
-图片: https://images-cdn.shimo.im/qfWljkOat88ccSKD/Screen_Shot_2018_10_24_at_5.16.28_PM.png
+![image description](/image/edit-data.png)
+
 同时，对每个数据集文件你都可以添加相关的文件简介。
 
 #### 参考范例
@@ -173,7 +174,7 @@ R用户，创建项目后，输入 !list.files('../input/<dataset_name>') 查看
 
 
 * 数据样本示例
-![image description](/image-data-example.png)
+![image description](/image/image-data-example.png)
 
 
 #### c. 语音数据集
