@@ -208,4 +208,4 @@ tar.close()
 * 数据预处理
 * 建模过程
 * 结果分析
-在每个模块和代码之间需要必要的文字说明，你可以参考我们的[Notebook推荐模板](https://www.kesci.com/home/project/5bd1947f77028c0010b70bfd)
+* 在每个模块和代码之间需要必要的文字说明，你可以参考我们的[Notebook推荐模板](https://www.kesci.com/home/project/5bd1947f77028c0010b70bfd)
