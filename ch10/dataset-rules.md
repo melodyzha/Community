@@ -112,8 +112,8 @@ tar.close()
 * 数据集中数据所覆盖的时间段、国家范围、领域等属性特征；
 
 ### 2. 用K-Lab挂载数据集的方法
-Python用户，创建项目后，输入 !ls ../input/<dataset_name>/ 查看数据路径。
-R用户，创建项目后，输入 !list.files('../input/<dataset_name>') 查看数据路径。
+* Python用户，创建项目后，输入 `!ls ../input/<dataset_name>/` 查看数据路径。
+* R用户，创建项目后，输入 `!list.files('../input/<dataset_name>')` 查看数据路径。
 
 ### 3. 数据说明
 下面提供了**3种不同类型的数据集**说明的内容编辑指导，你可以根据自己的数据集类型来选择属性参考编辑。
