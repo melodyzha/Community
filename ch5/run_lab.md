@@ -9,6 +9,6 @@
   ![image description](/image/运行时-修改项目名称.png)
   
 * 保存项目：在Notebook页面点击`保存`按钮，保存对notebook中cell输入输出内容的修改
-* 生成版本：在Notebook页面点击`生成版本`按钮，该操作将基于当前工作区内容生成一个新的版本。生成版本后，用户可以在`我的项目`中进行项目管理。
+* 生成版本：在Notebook页面点击`生成版本`按钮，该操作将基于当前Notebook内容生成一个新的版本。生成版本后，用户可以在`我的项目`中进行项目管理。
   
   ![image description](/image/运行时-生成版本.png)
