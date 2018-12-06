@@ -27,6 +27,6 @@
 ![image description](/image/renamefile.png)
 
 
-可以在文件树的work目录下直接查看附件：
+导入成功后可以在文件树的work目录下直接查看附件：
 
 ![image description](/image/view-new-file.png)
