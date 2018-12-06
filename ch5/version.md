@@ -1,8 +1,31 @@
 # 项目版本和附件
-K-Lab的项目有版本的概念，如果需要公开发布或分享项目，必须要至少成一个项目版本：在Notebook页面点击**生成版本**按钮，该操作将基于当前工作区内容生成一个新的版本。
+
+### 项目版本
+在K-Lab上创建的数据分析项目如果需要公开发布或分享给他人，必须要至少成一个项目版本：在Notebook页面点击**“生成版本”**按钮，该操作将基于当前notebook的内容生成一个新的版本。
 
 ![image description](/image/运行时-生成版本.png)
 
 ### 附件
+对于一些和Notebook相关或Notebook所依赖的工程文件、数据文件，可以作为Notebook的附件，在生成版本时一起保存。步骤如下：
 
+* 在**work目录**下创建一个**新的文件夹**；
+* 将需要添加为附件的文件都存入该文件夹内；
+* 在点击**“生成版本”**按钮后，会跳出会话框如下，在会话框内勾选所需的文件即可。
 
+![image description](/image/newversion.png)
+
+**特别需要注意的是，将文件直接存入work目录下是无法保存为附件的哦，一定要存入**work目录下某一个文件夹**内才可以。**
+
+项目相关的依赖文件在项目详情的里可以查看：
+
+![image description](/image/attachment.png)
+
+### Fork包含附件的项目
+
+在Fork了一个包含附件的项目后，附件中的文件会**自动导入你的work目录**下。如果附件名与自己工作区里的文件夹重名，可以修改文件夹名称或直接覆盖原文件。
+
+![image description](/image/renameattachment.png)
+
+可以在文件树的work目录下直接查看附件：
+
+![image description](/image/view-new.png)
