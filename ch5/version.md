@@ -16,9 +16,9 @@
 
 **特别需要注意的是，将文件直接存入work目录下是无法保存为附件的哦，一定要存入**work目录下某一个文件夹**内才可以。**
 
-* 项目相关的依赖文件在项目详情里可以查看：
+* 如果想查看项目相关的依赖文件，在项目详情里点击“附件”即可查看：
 
-![image description](/image/attachment.png)
+![image description](/image/content-attachment.png)
 
 ### Fork包含附件的项目
 
