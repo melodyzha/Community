@@ -13,7 +13,7 @@
 * 在点击**生成版本**按钮后，会跳出会话框如下，在会话框内勾选所需的文件即可。
 * 需要注意的是，勾选的文件需要在**同一文件夹内**哦。
 
-![image description](/image/new-version-att.png)
+![image description](/image/add-attchment.png)
 
 **特别需要注意的是，将文件直接存入work目录下是无法保存为附件的哦，一定要存入**work目录下某一个文件夹**内才可以。**
 
