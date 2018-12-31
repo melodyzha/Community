@@ -2,7 +2,7 @@
 
 监控区在K-Lab运行时的页面底部，分为日志监控和变量监控两个部分，用户可通过监控区右下角的按钮进行页面切换。在底部固定的监控条上可以看到K-lab的可用时间、CPU用量、内存用量、磁盘用量以及工作区用量。
 
-![image description](/image/监控条.png)
+![image description](/image/monitor-bar.png)
 
 以下是注意事项：
 
