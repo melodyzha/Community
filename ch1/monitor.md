@@ -24,7 +24,7 @@
 
 在变量监控区，可以随时查看项目的变量赋值情况，显示的信息有：变量名、类型、占用内存和变量的赋值。
 
-![image description](/image/变量监控.png)
+![image description](/image/variable-monitor.png)
 
 
 
