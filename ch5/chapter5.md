@@ -8,6 +8,5 @@
 * [创建项目](./create_lab.md)
 * [项目版本和附件](./version.md)
 * [管理项目](./manage_lab.md)
-* [项目版本](./version_lab.md)
 * [Fork项目](./fork_lab.md)
 
